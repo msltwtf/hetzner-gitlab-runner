@@ -8,6 +8,7 @@ on:
       - main
   schedule:
     - cron: '30 17 * * 5'
+  workflow_dispatch:
 
 jobs:
   build_and_push:
